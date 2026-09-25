@@ -67,11 +67,15 @@
 # countdown(10)
 
 # def weather(temp):
-#     if 65<temp<80:
+#     if 60<temp<70:
 #         print("Perfect weather today!")
-#     elif 80<=temp:
+#     elif 70<=temp:
 #         print("It's hot today!")
 #     else:
 #         print("It's cold today!")
 
 # weather(80)
+
+# weather(65)
+
+# weather(70)
