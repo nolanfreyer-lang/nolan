@@ -34,12 +34,15 @@ def encrypt(int):
     return (int%10,int//10)
 
 def exponentiate(x, y):
-    for i in range(1, y):
-        return x + 1
-        i=-1
+    result = 1
+    multipliers_left = 0
+    while multipliers_left < y:
+        multipliers_left += 1
+        result *=x
+    return result
+    
 
 min_max_set = [1, 2, 3, 4, 5]
 
-for int in min_max_set:
-    return min_max_set[x] < min_max_set[x+1]
+
 

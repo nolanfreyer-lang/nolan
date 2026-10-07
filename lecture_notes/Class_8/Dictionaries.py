@@ -10,11 +10,11 @@ star = {
     "distance": 25.05 #light years
 }
 
-# for key in star.keys():
-#     print(key)
+for key in star.keys():
+    print(key)
 
-# for value in star.values():
-#     print(value)
+for value in star.values():
+    print(value)
 
 list1 = list(range(0,11))
 
@@ -31,13 +31,13 @@ nested_list = [a,b,c]
 # print(nested_list[2][1])
 # print(nested_list)
 
-stars_data = {
-    "name":["Sirius","Vega","Altair"],
-    "magnitude":[-1.46,0.03,0.77],
-    "disntance_ly":[8.6,25.0,16.7],
-    "constellation":["Canis Major", "Lyra", "Aquila"]
-}
+# stars_data = {
+#     "name":["Sirius","Vega","Altair"],
+#     "magnitude":[-1.46,0.03,0.77],
+#     "disntance_ly":[8.6,25.0,16.7],
+#     "constellation":["Canis Major", "Lyra", "Aquila"]
+# }
 
-for star in stars_data["name"]:
-    print(star)
+# for star in stars_data["name"]:
+#     print(star)
 
